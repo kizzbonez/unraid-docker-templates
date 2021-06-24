@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-    <Name>elasticsearch</Name>
+    <Name>kibana</Name>
     <Repository>kibana:6.6.2</Repository>
     <Registry>https://hub.docker.com/_/kibana</Registry>
     <Network>bridge</Network>
