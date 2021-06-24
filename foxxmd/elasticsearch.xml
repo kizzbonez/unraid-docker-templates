@@ -11,7 +11,7 @@
     <Project>https://www.elastic.co/</Project>
     <Overview>
         Elasticsearch with instructions for installation on unraid. [br][br]&#xD;
-        [b]Default Elasticsearch version is 6.6.2[/b][br]&#xD;
+        [b]Default Elasticsearch version is 6.2.4[/b][br]&#xD;
         To change version simply edit the version tag in the repository field to an available version on dockerhub. [b]This template not tested on alpine images.[/b][br][br]&#xD;
         [span style='color: #E80000;'][b]Directions below MUST be used in order to get Elasticsearch 5 and above working correctly.[/b][/span] Check support thread for more information.[br]&#xD;
         [b][span style='color: #E80000;']Directions:[/span][/b][br]&#xD;
