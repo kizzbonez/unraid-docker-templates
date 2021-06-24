@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
     <Name>elasticsearch</Name>
-    <Repository>elasticsearch:6.6.2</Repository>
+    <Repository>elasticsearch:6.2.4</Repository>
     <Registry>https://hub.docker.com/_/elasticsearch</Registry>
     <Network>bridge</Network>
     <MyIP/>
