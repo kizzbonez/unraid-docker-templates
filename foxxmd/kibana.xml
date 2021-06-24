@@ -63,15 +63,15 @@
             <Mode>rw</Mode>
         </Volume>
     </Data>
-    <Environment>
+      <Environment>
         <Variable>
-            <Value>single-node</Value>
-            <Name>discovery.type</Name>
-            <Mode/>
+          <Value>http://localhost:9200</Value>
+          <Name>ELASTICSEARCH_URL</Name>
+          <Mode/>
         </Variable>
-    </Environment>
+      </Environment>
     <Labels/>
     <Config Name="Data" Target="/usr/share/kibana/data" Default="/mnt/user/appdata/kibana/data" Mode="rw" Description="Directory where ES data is persisted" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/kibana/data</Config>
     <Config Name="REST API Port" Target="5601" Default="5601" Mode="tcp" Description="Host port exposed for REST HTTP interface." Type="Port" Display="always" Required="true" Mask="false">5601</Config>
-    <Config Name="Discovery Type" Target="discovery.type" Default="single-node" Mode="" Description="Container Variable: discovery.type" Type="Variable" Display="always" Required="true" Mask="false">single-node</Config>
+      <Config Name="elasticsearch.url" Target="ELASTICSEARCH_URL" Default="" Mode="" Description="Defines which Elasticsearch URL to talk to" Type="Variable" Display="advanced" Required="false" Mask="false">http://[IP]:[PORT:9200]</Config>
 </Container>
